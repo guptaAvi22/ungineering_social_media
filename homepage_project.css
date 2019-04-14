@@ -1,0 +1,166 @@
+*{
+    box-sizing : border-box;
+}
+
+
+.row{
+    
+    width: 100%;
+    height: 160px;
+}
+
+
+.col {
+    
+    float: left;
+    height: 100%;
+}
+
+
+
+.tag {
+    width: 9.25%;
+    height: 85%;
+    
+}
+
+.col1 {
+    width: 9.5%;
+    height: 100%;
+    
+}
+
+.col2 {
+    width: 64%;
+    height: 100%;
+}
+
+.col3 {
+    width: 14%;
+    height: 100%;
+}
+
+.col4,.col5 {
+    width: 50%;
+    height: 65%;
+}
+
+
+.row1 {
+    height:60%;
+}
+
+.row2 {
+    height:40%;
+}
+
+.b{
+    width: 60%;
+}
+
+
+
+
+.r1 {
+    padding-top: 6px;
+    background-color: #F4F4F4;
+    height:88px;
+}
+
+.r2 {
+    background-color: #F4F4F4;
+    height:120px;
+}
+.r3 {
+    height:80px;
+}
+
+.t1,.t3 {
+    background-color: #F4F4F4;
+    width:20%;
+        
+}
+
+.t2 {
+    background-color: #F4F4F4;
+    width:60%;
+    
+}
+
+.write{
+    
+    width: 100%;
+    height: 100%;
+    padding: 0px ;
+    border:10px solid #F4F4F4;
+}    
+
+.writetxt{
+    font-size:38px;
+    color:#6b6969;
+}
+    
+.s1,.s3 {
+    background-color: #F4F4F4;
+    width:20%;
+       
+}
+
+.s2 {
+    background-color: #F4F4F4;
+    width:60%;
+    
+}
+
+.submits {
+    background-color: #F4F4F4;
+    width:20%;
+}
+
+.submits2 {
+    border:4px solid #F4F4F4;
+    background-color: #F4F4F4;
+    width:60%;
+}
+
+
+
+.x1,.x3 {
+    background-color: #F4F4F4;
+    width:20%;    
+}
+
+.x2 {
+    background-color: #F4F4F4;
+    width:60%;
+}
+
+.box {
+    background: white;
+    width: 100%;
+    height: 160px;
+    padding: 10px ;
+    border:10px solid #F4F4F4;
+}
+.statusbox {
+    padding: 0px;
+}
+
+.stat{
+    position: relative;
+    height:160px;
+}
+
+.par {
+    position: relative;
+    z-index:1;
+    font-size: 16px;
+    color:#716c6c
+}
+.time {
+    color:#545151;
+    font-size: 15px;
+    margin: none;
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,151 @@
+img {
+    
+    position: absolute;
+    TOP:21px;
+    LEFT:40px;
+    
+}
+
+
+
+.text_un {
+    color:red; 
+    display: inline-block;
+    float: left;
+    font-size:24px;
+}
+
+.text_gineering {
+    float: left;
+    display: inline-block;
+    font-size:24px;
+    color:black;
+    
+}
+
+.rowtop {
+    height:90px;
+}
+
+.up{
+    height:25%;
+}
+.down{
+    height:75%;
+}
+.textup{
+    border-bottom:1px solid black;
+    height:50%;
+}
+
+.textdown{
+    height:50%;
+    margin-left: -5px;
+}
+
+.tagline {
+    position: absolute;
+    top: 49px;
+    left:139px;
+    font-size:11px;
+    color:#747474; 
+}
+
+.two {
+    position: absolute ;
+    top: 62px;
+    left:160px;
+    font-size:11px;
+    color:#747474;  
+}
+
+.dash {
+    background-color: white;
+    border: white;
+    color: #f04c4e  ;
+    height:28px;
+    width:108px;
+    text-align: middle;
+    display: inline-block;
+    font-size: 12px; 
+    cursor: pointer;
+    float: right;
+    font-weight: 900;
+}   
+
+
+.logout { 
+    background-color: white;
+    border-color: #f04c4e   ;
+    color: #f04c4e;
+    text-align: middle    ;   
+    display: inline-block;
+    font-size: 12px; 
+    cursor: pointer;
+    height:28px;
+    width:98px;
+    float: right;
+    font-weight: 900;
+}
+
+.login {
+    background-color: white;
+    border-color: #f04c4e;
+    color: #f04c4e;
+    height:28px;
+    width:98px;
+    text-align: middle;
+    display: inline-block;
+    font-size: 12px; 
+    cursor: pointer;
+    float: right;
+    font-weight: 900;
+}   
+
+.new { 
+    background-color: #f04c4e;
+    border-color: #f04c4e   ;
+    color: white;
+    text-align: middle    ;   
+    display: inline-block;
+    font-size: 12px; 
+    cursor: pointer;
+    height:28px;
+    width:98px;
+    float: right;
+    font-weight: 900;
+}
+
+.status {
+    width:100%;
+    height:107px;
+    border:none;
+    border-radius: none;
+    resize: none;
+    outline: none;
+}
+
+.submit {
+    margin-right:10px;   
+    background-color: #f04c4e;
+    border-color: #f04c4e;
+    color: white;
+    text-align: right;   
+    float: right;
+    font-size: 16px; 
+    cursor: pointer;
+    height:33px;
+    width:100px;
+    padding-right:23px;
+    position: relative;
+    top:20px;
+}
+
+
+
+
+
+
+
+    
+    
