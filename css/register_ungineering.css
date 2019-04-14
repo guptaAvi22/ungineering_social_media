@@ -1,0 +1,133 @@
+ *{
+  box-sizing: border-box;
+  margin:0px;
+  font-family: "Open Sans",sans-serif;
+  
+}
+body{
+    background-color: #787878;
+}
+
+body > .col:nth-child(1){
+    
+    height: 75%;
+    width: 30%;
+    float : left;
+    background-color: white;
+}
+body > .col:nth-child(2) {
+    
+    height: 75%;
+    width: 70%;
+    float : left;
+    padding-left:10%;
+    background-image: linear-gradient(114deg, #fafafa, #f7f7f7);   
+    
+}
+
+body >.col:nth-child(1) > .row{
+    margin:15% 15% 30% 25%;
+
+}
+body >.col:nth-child(1)  .image{
+    float : left;
+    height:50px;
+    width:40px;
+   
+} 
+body >.col:nth-child(1) .col{
+    font-size: 9px;
+    
+    text-indent: 10px;
+    height:5em;
+    
+    
+}   
+body >.col:nth-child(1) span{
+    font-size:17px;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 20px;
+    color: black;    
+}
+body>.col:nth-child(1) .r{
+    color: red;
+}
+body>.col:nth-child(1) p{
+    font-style: default ;
+    line-height: 12px;
+    
+}
+body>.col:nth-child(1) .part2:nth-child(2){
+    text-indent: 5px;
+    
+    
+}
+body>.col:nth-child(1) .row {
+    color: #7c7c7c;
+    
+}
+
+
+body>.col:nth-child(1) a{
+    color: red;
+}
+
+body >.col:nth-child(2) .row:nth-child(1) {
+    margin-top:15%;
+    
+    color: #7c7c7c; 
+}
+body >.col:nth-child(2) .row:nth-child(2) {
+    margin-top:20px;
+    
+   
+}
+  
+body >.col:nth-child(2) .row:nth-child(2) input[ type="text"]{
+    width:300px;
+    height:35px;
+    margin-left:107px;
+    border: none;
+    border-radius: 3px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);    
+    padding-left:15px;
+    
+}
+body >.col:nth-child(2) .row:nth-child(2) input[ type="password"]{
+    width:300px;
+    height:35px;
+    margin-left:76px;
+    border: none;
+    border-radius: 3px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);    
+    padding-left:15px;
+   
+}
+
+
+body >.col:nth-child(2) .row:nth-child(2) input[ type="submit"]{
+    width:300px;
+    height:35px;
+    border: none;
+    border-radius: 3px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); 
+    background-color: red;
+    color: white;
+    padding-left:0px;
+    margin-left:150px;
+    
+}
+
+
+
+
+body >.col:nth-child(2) a{
+    
+    margin-left:212px;   
+    color: red;
+}
+
