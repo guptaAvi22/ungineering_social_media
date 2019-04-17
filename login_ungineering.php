@@ -17,6 +17,7 @@
                     <div class="row">
                         <span class="w">un</span><span>gineering</span>
                     </div>
+                    <div class="row"></div>
                     <div class="row"> 
                         <p> a <span class="w">bit</span> of knowledge is good</p>
                         <p> a <span class="w">byte</span> is better</p>
@@ -55,29 +56,31 @@
             <div class="row">
                 <h1>Log-in</h1>
             </div>
-            <form method="POST" action="login_submit.php">
-                    <div class="row1">
-                        <label for="email">email</label>
-                    </div>
-                    <div class=row2>
-                       <input type="text" name="email" required>
-                    </div>
-                    <div class="row1">
-                        <label for="password">password</label>
-                    </div>
-                    <div class="row2">
-                       <input type="password" name="password" required>
-                    </div>
-                    <div class="row1">
-                    </div>
-                    <div class="row2">
-                       <input type="submit" name="submit" value="log-in">
-                    </div>
-                    <div class="row1">
-                    </div>
-                    <div class="row2">
-                       <a href="register_ungineering.php">New User Create Account</a>
-                    </div>
+            <div class="row">
+                <form method="POST" action="login_submit.php">
+                        <div class="row1">
+                            <label for="email">email</label>
+                        </div>
+                        <div class=row2>
+                           <input type="text" name="email"  required>
+                        </div>
+                        <div class="row1">
+                            <label for="password">password</label>
+                        </div>
+                        <div class="row2">
+                           <input type="password" name="password" required>
+                        </div>
+                        <div class="row1">
+                        </div>
+                        <div class="row2">
+                           <input type="submit" name="submit" class="val" value="log-in">
+                        </div>
+                        <div class="row1">
+                        </div>
+                        <div class="row2">
+                           <a href="register_ungineering.php">New User Create Account</a>
+                        </div>
                 </form>
+            </div>
         </div>
     </body>
